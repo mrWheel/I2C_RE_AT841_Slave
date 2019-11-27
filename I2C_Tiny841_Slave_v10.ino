@@ -33,6 +33,7 @@
 *    LTO (1.611+ only): Enabled
 *    Bootloader UART: UART0 (Serial)
 *    Wire Modes: Slave Only
+*    Port A (CW:0~7, CCW:3~10)
 *    millis()/micros(): Enabled
 */
 
@@ -77,7 +78,7 @@ struct registerLayout {
   uint16_t  midPressTime;   // 0x11 - 2 bytes
   uint16_t  longPressTime;  // 0x13 - 2 bytes
   uint8_t   modeSettings;   // 0x15 -->> _MODESETTINGS must be the same offset <<--
-  char      filler[4];      // 0x16
+  byte      filler[4];      // 0x16
 };
 
 #define _MODESETTINGS   0x15
@@ -101,7 +102,7 @@ volatile registerLayout registerStack = {
   .midPressTime =             500,    // 0x11 2
   .longPressTime =           1500,    // 0x13 2
   .modeSettings =               0,    // 0x15
-  .filler =  {0xFF, 0xFF, 0xFF,0xFF}, // 0x16
+  .filler =  {0xFF, 0xFF, 0xFF,0xFF}  // 0x16
 };
 
 //Cast 32bit address of the object registerStack with uint8_t so we can increment the pointer

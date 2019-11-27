@@ -1,0 +1,6 @@
+{
+    "board": "ATTinyCore:avr:attinyx41opti",
+    "configuration": "bootUART=UART0,chip=841,LTO=enable,clock=8internal,eesave=aenable,bod=1v8,bodact=disabled,bodpd=disabled,pinmapping=old,wiremode=slave,millis=enabled,neopixelport=porta",
+    "output": "/Users/WillemA/tmp/arduinoBuild/",
+    "sketch": "I2C_Tiny841_Slave_v10.ino"
+}

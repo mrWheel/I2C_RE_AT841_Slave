@@ -1,5 +1,5 @@
 /*
-    Program : I2Ctuff (part of I2C_Tiny84_Slave)
+    Program : I2Ctuff (part of I2C_Tiny841_Slave)
 
     Copyright (C) 2019 Willem Aandewiel
 
