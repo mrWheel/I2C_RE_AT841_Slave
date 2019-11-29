@@ -49,14 +49,14 @@
 
 #define _I2C_DEFAULT_ADDRESS  0x28
 
-#define _ROTA           10          // DIL-2  (PB0, D10)
-#define _ROTB           0           // DIL-13  (PA0, D0) 
+#define _ROTA           10          // DIL-2    (PB0, D10)
+#define _ROTB           0           // DIL-13   (PA0, D0) 
 
-#define _BUTTON         2           // DIL-11  (PA2, D2)
-#define _BLUELED        5           // DIL-8  (PA5, D5)
-#define _REDLED         8           // DIL-5 (PB2, D8)
-#define _GRNLED         7           // DIL-6 (PA7, D7)
-#define _SEND_INT       1           // DIL-12  (PA1, D1)
+#define _BUTTON         2           // DIL-11   (PA2, D2)
+#define _BLUELED        5           // DIL-8    (PA5, D5)
+#define _REDLED         8           // DIL-5    (PB2, D8)
+#define _GRNLED         7           // DIL-6    (PA7, D7)
+#define _SEND_INT       1           // DIL-12   (PA1, D1)
 
 #define _LED_ON         0
 #define _LED_OFF        255

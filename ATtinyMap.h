@@ -10,4 +10,4 @@
 //                                +------+
 //                            ^               ^
 //                            |               |
-//   CounterClockwise Pinout  +---------------+
+//          Clockwise Pinout  +---------------+ like Rev. D boards
