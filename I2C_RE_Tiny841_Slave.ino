@@ -1,5 +1,5 @@
 /*
-    Program : I2C_Tiny841_Slave
+    Program : I2C_RE_Tiny841_Slave
     Date    : 10-09-2019
 */
 #define _MAJOR_VERSION  1
